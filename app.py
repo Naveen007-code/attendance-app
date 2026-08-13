@@ -3,7 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 from datetime import datetime, time
 
-st.set_page_config(page_title="Company Attendance System", layout="centered")
+st.set_page_config(page_title="Misoft Company Attendance System", layout="centered")
 
 # Google Sheet URL
 SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1GFPHFaY4YtXjOXVA4d5pEmgw-jPzJx-A885jroOPNqI/edit?usp=sharing"
